@@ -1,7 +1,7 @@
 name: tagscore_task
 description: TagScore Task Application
 
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: 'none'
 version: 1.0.0+1
 
 environment:
@@ -16,6 +16,7 @@ dependencies:
   http: ^0.12.1
   fluttertoast: ^4.0.1
   shared_preferences: ^0.5.8
+  razorpay_flutter: ^1.2.1
 
 dev_dependencies:
   flutter_test:
@@ -25,6 +26,8 @@ flutter:
 
   uses-material-design: true
 
+  assets:
+    - assets/images/logo.jpg
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg

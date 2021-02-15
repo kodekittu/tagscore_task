@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import 'homePage.dart';
+import 'signinPage.dart';
+
 class Load extends StatefulWidget {
   @override
   _LoadState createState() => _LoadState();
@@ -39,7 +42,7 @@ class _LoadState extends State<Load> {
     return Scaffold(
       body: Center(
         child: Image.asset(
-          "assets/images/logo.png",
+          "assets/images/logo.jpg",
           height: 100,
           width: 200,
         ),
